@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Tiny Embedded Intelligence Layer'
+copyright = '2023, Branco'
+author = 'Sergio Branco'
 
 release = '0.1'
 version = '0.1.0'
