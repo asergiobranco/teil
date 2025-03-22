@@ -1,7 +1,9 @@
 Tiny Embedded Intelligence Layer
 ===================================
 
-**Tiny Embedded Intelligence Layer** (TEIL) is a project that aims to provide solutions for implementing and deploying embedded intelligence solutions in Resource-Scarce Embedded Systems. The following work is the junction of multiple ideas, implementations, and solutions produced during the development of my Ph.D. Thesis, in the same area. Nevertheless, the time was short of developing and producing many solutions that came to mind while working on such a topic, and I decided to start this documentation page to help everyone notice and find perfect solutions for the problem they may be facing. 
+**Tiny Embedded Intelligence Layer** (TEIL) is a cutting-edge framework designed to efficiently deploy machine learning (ML) models on resource-scarce embedded systems, such as Arduino, ARM Cortex-M, and similar devices. Developed as part of my PhD thesis, TEIL aims to bridge the gap between advanced ML techniques and the limitations of embedded systems, enabling real-time intelligence in environments with constrained resources.
+
+TEIL offers seamless compatibility with popular machine learning libraries, including Scikit-Learn, and goes a step further by transpiling ML models into optimized C code, ensuring that these models can run effectively on devices with limited memory and processing power. In addition to supporting machine learning models, TEIL also provides capabilities for real-time data analysis, verification of ML models during runtime, and reducing the need for constant cloud communication, making it a versatile solution for autonomous, edge-based intelligence. With TEIL, embedded systems can harness the power of machine learning while maintaining performance and efficiency.
 
 .. note::
 
@@ -13,4 +15,5 @@ Contents
 .. toctree::
 
    usage
-   api
+   Python Package
+   C Library
