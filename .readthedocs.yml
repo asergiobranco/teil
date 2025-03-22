@@ -12,3 +12,9 @@ build:
 
 mkdocs:
   configuration: mkdocs.yml
+
+python:
+  install:
+    - mkdocs
+    - mkdocstrings[python]
+    - markdown-include
