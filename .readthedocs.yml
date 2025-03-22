@@ -15,6 +15,7 @@ mkdocs:
 
 python:
   install:
-    - mkdocs
-    - mkdocstrings[python]
-    - markdown-include
+    requirements:
+      - mkdocs
+      - mkdocstrings[python]
+      - markdown-include
