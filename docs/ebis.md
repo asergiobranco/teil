@@ -3,7 +3,7 @@ Machine Learning
 
 ## Support-Vector Machines
 
-![image info](docs/img/svmlinearstructure.png)
+![image info](img/svmlinear.png)
 
 ## Multi-Layer Percepton
 
