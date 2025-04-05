@@ -1,7 +1,7 @@
 TEIL C Library
 ==============
 
-The C Library is available to download at: (https://github.com/asergiobranco/teil-c/releases)[https://github.com/asergiobranco/teil-c/releases].
+The C Library is available to download at: [https://github.com/asergiobranco/teil-c/releases](https://github.com/asergiobranco/teil-c/releases).
 
 ## Compile the Code
 
@@ -26,7 +26,7 @@ This will open the bash, which allows your to compile the model using the comman
 
 |               | URL  |
 |:-------------:|:----:|
-| Download      | https://github.com/asergiobranco/teil-c/releases |
+| Download      | [https://github.com/asergiobranco/teil-c/releases](https://github.com/asergiobranco/teil-c/releases) |
 | Github        | https://github.com/asergiobranco/teil-c  |
 | Documentation | |
 | Issues        | |
