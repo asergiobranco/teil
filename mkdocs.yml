@@ -11,6 +11,6 @@ plugins:
           options:
             docstring_style: sphinx
 markdown_extensions:
-  - markdown_include.include:
+  - markdown_luminclude.include:
       base_path: .
   - admonition
