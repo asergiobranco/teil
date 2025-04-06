@@ -99,7 +99,7 @@ The following figure depicts the MLP Hidden Layer structure and the respective e
 If you use other ML library but Scikit-Learn, please ensure that you copy each structure correctly.
 Follow the Scikit-Learn documentation to further understand what each structure represents.
 
-![image info](img/mlp.png)
+![image info](img/mlphiddenlayer.png)
 
 ## Decision Tree
 

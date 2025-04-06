@@ -12,9 +12,18 @@ TEIL offers seamless compatibility with popular machine learning libraries, incl
 
 Because there are many ML algorithm that exist, this framework is limited to the following:
 
-| Algorithm | Task | Documentation | 
-|------|------|-------|
-| Support-Vector Machine | Classficiation | |
-| Support-Vector Machine | Regression | |
-| Decision Tree | Classficiation | |
-| Decision Tree | Regression | |
+| Algorithm               | Task           | Documentation |
+|:------------------------|:--------------:|:-------------:|
+| Decision Tree           | Classification | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#decision-tree) |
+| Decision Tree           | Regression     | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#decision-tree) |
+| Multi-Layer Percepton   | Classification | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#multi-layer-percepton) |
+| Multi-Layer Percepton   | Regression     | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#multi-layer-percepton) |
+| SVM (Linear)            | Classification | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#support-vector-machines) |
+| SVM (Linear)            | Regression     | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#support-vector-machines) |
+| SVM (RBF)               | Classification | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#support-vector-machines) |
+| SVM (RBF)               | Regression     | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#support-vector-machines) |
+| SVM (Polynomial)        | Classification | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#support-vector-machines) |
+| SVM (Polynomial)        | Regression     | [readthedocs](https://teil.readthedocs.io/en/latest/ebis/#support-vector-machines) |
+| PCA                     | Dimensionality Reduction / Decomposition | []() |
+| Gaussian Naive Bayes    | Classification | []() |
+| Multinomial Naive Bayes | Classification | []() |
