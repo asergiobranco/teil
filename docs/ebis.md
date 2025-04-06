@@ -50,15 +50,67 @@ typedef struct{
 
 The next sections explain what each structure field maps regarding the original SVM model. 
 
-### Linear 
+### Structure Reference (Linear Kernel)
 
 The following figure depicts the Linear SVM structure and the respective explanation.
+If you use other ML library but Scikit-Learn, please ensure that you copy each structure correctly.
+Follow the Scikit-Learn documentation to further understand what each structure represents.
 
 ![image info](img/svmlinear.png)
 
+### Structure Reference (Other Kernels)
+
+The following figure depicts the SVM structure and the respective explanation. 
+If you use other ML library but Scikit-Learn, please ensure that you copy each structure correctly.
+Follow the Scikit-Learn documentation to further understand what each structure represents.
+
+![image info](img/svm.png)
 
 
 
 ## Multi-Layer Percepton
 
+The structure to implement an MLP is available by including the header `teil/model/neural_network/mlpc.h` for classification problems or the `teil/model/neural_network/mlpr.h` for regression problems.
+
+```c 
+typedef struct{
+    unsigned int n_features;
+    unsigned int n_classes;
+    unsigned int n_layers;
+    feature_type *sample;
+    mlp_hidden_layer_t ** hidden_layers;
+} mlpc_model_t;
+```
+
+```c 
+typedef struct{
+    unsigned int n_features;
+    unsigned int n_layers;
+    feature_type *sample;
+    mlp_hidden_layer_t ** hidden_layers;
+} mlpr_model_t;
+```
+
+The `mlp_hidden_layer_t` is accessible by including the  `teil/model/neural_network/neural_utils.h` header file.
+
+### Structure Reference (Hidden Layer)
+
+The following figure depicts the MLP Hidden Layer structure and the respective explanation. 
+If you use other ML library but Scikit-Learn, please ensure that you copy each structure correctly.
+Follow the Scikit-Learn documentation to further understand what each structure represents.
+
+![image info](img/mlp.png)
+
 ## Decision Tree
+
+Decision Trees can be represented using distinct data structures.
+Inline If code is the straightfoward mechanism to transpile the DT model,
+and a single hard-coded function for each DT model is generated. 
+Neverthless, multiple architectures may benefit from using a different DT representation,
+and one provides an Linked-List and an Araay representation.
+
+### Structure Reference (Array)
+
+The following figure depicts the DT structure and the respective explanation. 
+If you use other ML library but Scikit-Learn, please ensure that you copy each structure correctly.
+Follow the Scikit-Learn documentation to further understand what each structure represents.
